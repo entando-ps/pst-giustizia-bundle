@@ -40,8 +40,7 @@ configuration:
       mainFrame: false
       defaultWidget:
         code: navigation-menu
-        properties:
-          navSpec: code(homepage)
+        properties: {navSpec: code(homepage)}
       sketch:
         y1: 3
         x1: 0
