@@ -41,7 +41,7 @@ configuration:
       defaultWidget:
         code: navigation-menu
         properties:
-          navSpec: code(homepage) + code(services) + code(schede_pratiche)
+          navSpec: code(homepage)
       sketch:
         y1: 3
         x1: 0
