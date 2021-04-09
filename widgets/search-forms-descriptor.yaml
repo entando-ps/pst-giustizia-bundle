@@ -1,0 +1,6 @@
+code: pst-search-forms-widget
+titles:
+  en: PST Search Forms
+  it: PST Search Forms
+group: free
+customUiPath: search-forms.ftl

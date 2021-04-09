@@ -1,0 +1,6 @@
+code: pst-social-links-widget
+titles:
+  en: PST Social Links
+  it: PST Social Links
+group: free
+customUiPath: social-links.ftl

@@ -1,0 +1,6 @@
+code: pst-breadcrumb-widget
+titles:
+  en: PST Breadcrumb
+  it: PST Breadcrumb
+group: free
+customUiPath: breadcrumb.ftl

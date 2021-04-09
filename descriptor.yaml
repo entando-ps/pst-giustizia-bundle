@@ -3,5 +3,8 @@ description: Bundle giustizia per pst
 components:
   widgets:
     - widgets/choose-language-descriptor.yaml
+    - widgets/search-forms-descriptor.yaml
+    - widgets/social-links-descriptor.yaml
+    - widgets/breadcrumb-descriptor.yaml
   pageModels:
     - pageModels/pst-generic-descriptor.yaml

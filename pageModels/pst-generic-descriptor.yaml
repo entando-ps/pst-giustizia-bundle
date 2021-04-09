@@ -17,7 +17,7 @@ configuration:
       description: Social links
       mainFrame: false
       defaultWidget:
-        code: social_links
+        code: pst-social-links-widget
         properties: null
       sketch:
         y1: 1
@@ -28,7 +28,7 @@ configuration:
       description: Barra ricerca
       mainFrame: false
       defaultWidget:
-        code: search_form_pst
+        code: pst-search-forms-widget
         properties: null
       sketch:
         y1: 2
@@ -38,10 +38,6 @@ configuration:
     - pos: 3
       description: Menu navigazione
       mainFrame: false
-      defaultWidget:
-        code: menu_pst
-        properties:
-          navSpec: code(homepage) + code(services) + code(schede_pratiche)
       sketch:
         y1: 3
         x1: 0
