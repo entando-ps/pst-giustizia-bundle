@@ -1,0 +1,189 @@
+code: pst-generic
+description: PST template generico
+configuration:
+  frames:
+    - pos: 0
+      description: Lingua
+      mainFrame: false
+      defaultWidget:
+        code: choose_language
+        properties: null
+      sketch:
+        y1: 0
+        x1: 10
+        x2: 11
+        y2: 0
+    - pos: 1
+      description: Social links
+      mainFrame: false
+      defaultWidget:
+        code: social_links
+        properties: null
+      sketch:
+        y1: 1
+        x1: 8
+        x2: 10
+        y2: 1
+    - pos: 2
+      description: Barra ricerca
+      mainFrame: false
+      defaultWidget:
+        code: search_form_pst
+        properties: null
+      sketch:
+        y1: 2
+        x1: 8
+        x2: 11
+        y2: 2
+    - pos: 3
+      description: Menu navigazione
+      mainFrame: false
+      defaultWidget:
+        code: menu_pst
+        properties:
+          navSpec: code(homepage) + code(services) + code(schede_pratiche)
+      sketch:
+        y1: 3
+        x1: 0
+        x2: 11
+        y2: 3
+    - pos: 4
+      description: Breadcrumb
+      mainFrame: false
+      defaultWidget:
+        code: breadcrumb
+        properties: null
+      sketch:
+        y1: 4
+        x1: 0
+        x2: 11
+        y2: 4
+    - pos: 5
+      description: Frame 1
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 5
+        x1: 0
+        x2: 11
+        y2: 5
+    - pos: 6
+      description: Frame 2
+      mainFrame: true
+      defaultWidget:
+      sketch:
+        y1: 6
+        x1: 0
+        x2: 11
+        y2: 6
+    - pos: 7
+      description: Frame 4
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 7
+        x1: 0
+        x2: 11
+        y2: 7
+    - pos: 8
+      description: Frame 5
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 8
+        x1: 0
+        x2: 11
+        y2: 8
+    - pos: 9
+      description: Frame 6
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 9
+        x1: 0
+        x2: 11
+        y2: 9
+    - pos: 10
+      description: Frame 7
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 10
+        x1: 0
+        x2: 11
+        y2: 10
+    - pos: 11
+      description: Frame 8
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 11
+        x1: 0
+        x2: 11
+        y2: 11
+    - pos: 12
+      description: Frame 9
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 12
+        x1: 0
+        x2: 11
+        y2: 12
+    - pos: 13
+      description: Frame 10
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 13
+        x1: 0
+        x2: 11
+        y2: 13
+    - pos: 14
+      description: Frame 10
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 14
+        x1: 0
+        x2: 11
+        y2: 14
+    - pos: 15
+      description: Frame 10
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 15
+        x1: 0
+        x2: 11
+        y2: 15
+    - pos: 16
+      description: Frame 10
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 16
+        x1: 0
+        x2: 11
+        y2: 16
+    - pos: 17
+      description: footer
+      mainFrame: false
+      defaultWidget:
+      sketch:
+        y1: 17
+        x1: 0
+        x2: 11
+        y2: 17
+    - pos: 18
+      description: footer 2
+      mainFrame: false
+      defaultWidget:
+        code: footer_pst
+        properties: null
+      sketch:
+        y1: 18
+        x1: 0
+        x2: 11
+        y2: 18
+templatePath: pst-generic.ftl
