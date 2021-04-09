@@ -6,7 +6,7 @@ configuration:
       description: Lingua
       mainFrame: false
       defaultWidget:
-        code: choose_language
+        code: pst-choose-language-widget
         properties: null
       sketch:
         y1: 0
