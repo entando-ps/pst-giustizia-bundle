@@ -38,6 +38,9 @@ configuration:
     - pos: 3
       description: Menu navigazione
       mainFrame: false
+      code: navigation-menu
+      properties:
+        navSpec: code(homepage) + code(services) + code(schede_pratiche)
       sketch:
         y1: 3
         x1: 0
