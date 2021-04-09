@@ -1,0 +1,6 @@
+code: pst-choose-language-widget
+titles:
+  en: PST Choose Language
+  it: PST Choose Language
+group: free
+customUiPath: choose-language.ftl

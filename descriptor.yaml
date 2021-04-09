@@ -1,5 +1,7 @@
 code: pst-giustizia-bundle
 description: Bundle giustizia per pst
 components:
+  widgets:
+    - widgets/choose-language-descriptor.yaml
   pageModels:
     - pageModels/pst-generic-descriptor.yaml
