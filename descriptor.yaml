@@ -1,0 +1,5 @@
+code: pst-giustizia-bundle
+description: Bundle giustizia per pst
+components:
+  pageModels:
+    - pageModels/pst-generic-descriptor.yaml
