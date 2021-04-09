@@ -6,5 +6,6 @@ components:
     - widgets/search-forms-descriptor.yaml
     - widgets/social-links-descriptor.yaml
     - widgets/breadcrumb-descriptor.yaml
+    - widgets/footer-descriptor.yaml
   pageModels:
     - pageModels/pst-generic-descriptor.yaml

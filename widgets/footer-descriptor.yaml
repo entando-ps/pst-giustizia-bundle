@@ -1,0 +1,6 @@
+code: pst-footer-widget
+titles:
+  en: PST Footer
+  it: PST Footer
+group: free
+customUiPath: footer.ftl

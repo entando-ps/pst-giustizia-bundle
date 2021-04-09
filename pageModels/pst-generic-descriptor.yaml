@@ -47,7 +47,7 @@ configuration:
       description: Breadcrumb
       mainFrame: false
       defaultWidget:
-        code: breadcrumb
+        code: pst-breadcrumb-widget
         properties: null
       sketch:
         y1: 4
@@ -175,7 +175,7 @@ configuration:
       description: footer 2
       mainFrame: false
       defaultWidget:
-        code: footer_pst
+        code: pst-footer-widget
         properties: null
       sketch:
         y1: 18
